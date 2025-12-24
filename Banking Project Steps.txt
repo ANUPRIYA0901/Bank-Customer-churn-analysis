@@ -1,0 +1,30 @@
+1. Insert Data- GetData.
+
+2. Transform Data- deleting unwanted data and checking values.
+
+3. If Bank_Churn has date table then create a new master date table:
+
+either CalenderAuto(Data will be added automatically based on given date table)
+
+OR Calender(We have to explicitly apply the dates)- CALENDER(FirstDate(BankDate),LastDate(Bank
+date)
+4. Created some columns as month and days.
+
+5. Now created relationship as part of Data modeling (Creating relationship between fact and dimension table).
+
+6.Created star schema: All dim table are connected to main fact table.
+  snowflake: dim table may or maybe connected to other dim table. (INTERVIEW)
+
+7. Reporting starts now: Dashboard
+8.For all measures given in BRD we will create a separate table.
+9. Created DAX function to calculate measures.
+ 
+10. Created new column to Give Credit type Analysis as good or bad or poor.....
+11. Visuals= Clustered chart to find Year wise or month wise active customers chart
+12. LINE chart to see Current month customer and previous month exit customer.
+13. exit customer by gender (donut chart)
+14. bar chart: Exit customer by Credit type.
+15. will create Bookmark with donut and bar chart.
+16. Now move to RLS
+
+ 
